@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: api-frontend
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-platform-experien-tenant/api-frontend/api-frontend@sha256:829ba0c95f0cebbf089045b3b749443b11c70e3ab8adc571997e8dc819b27bbe
+        name: container-image
+        resources: {}
+status: {}
