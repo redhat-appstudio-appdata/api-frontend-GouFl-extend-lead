@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: api-frontend
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rh-platform-experien-tenant/api-frontend/api-frontend@sha256:829ba0c95f0cebbf089045b3b749443b11c70e3ab8adc571997e8dc819b27bbe
         imagePullPolicy: Always
         name: container-image
         ports:
